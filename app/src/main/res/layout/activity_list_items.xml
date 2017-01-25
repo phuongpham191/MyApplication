@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:rowCount="2"
+    android:columnCount="2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <RadioButton
+        android:layout_alignTop="@+id/RadioButton"
+        android:text="RadioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton"
+        android:layout_weight="1"
+        android:gravity="fill"/>
+
+    <CheckBox
+        android:layout_alignRight="@+id/radioButton"
+        android:text="CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox"
+        android:layout_weight="1"
+        android:gravity="fill"/>
+
+    <Switch
+        android:layout_alignBottom="@+id/radioButton"
+        android:text="Enable Something"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_weight="1"
+        android:gravity="fill"/>
+
+    <ImageButton
+        android:layout_alignBottom="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/star_big_on"
+        android:id="@+id/imageButton2"
+        android:layout_weight="1"
+        android:gravity="fill"/>
+
+</GridLayout>
