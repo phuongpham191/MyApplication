@@ -2,8 +2,13 @@
 <resources>
     <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Xin Chao!</string>
-    <string name="ButtonText">I\’m a button</string>
+    <string name="ButtonText">Bam vao</string>
     <string name="title_activity_login">LoginActivity</string>
-    <string name="content_login1">Login</string>string>
-    <string name="content_login2">Password</string>string>
+    <string name="login">dang nhap</string>
+    <string name="email">dia chi Email</string>
+    <string name="password">mat khau</string>string>
+    <string name="dialog_message">ban muon haon thanh?</string>
+    <string name="dialog_title">hoan thanh</string>
+    <string name="ok">OK</string>
+    <string name="cancel">ket thuc</string>
 </resources>

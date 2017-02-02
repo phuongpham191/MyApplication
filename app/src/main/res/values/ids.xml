@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonStart" type="id" />
+    <item name="buttonLogin" type="id" />
+    <item name="textViewEmail" type="id" />
+</resources>
